@@ -365,6 +365,7 @@ footer .container {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-title-color);
+    padding-bottom: 10px;
 }
 .card-text {
     font-family: inherit;
@@ -376,8 +377,7 @@ footer .container {
     color: var(--secondary-title-color);
 }
 .card-info {
-    display: flex;
-    justify-content: center;
+    padding-top: 30px;
 }
 /* Footer */
 .container-footer {
