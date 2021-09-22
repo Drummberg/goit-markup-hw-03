@@ -268,10 +268,12 @@ p {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    margin-right: -20px;
 }
 .icon {
-    width: 370px;
-    height: 404px;
+    flex-basis: calc (100% / 3);
+    margin-top: 34px;
+    margin-right: 30px;
     left: 215px;
     top: 262px;
     border: 1px solid #eeeeee;
