@@ -8,7 +8,7 @@
 body,
 main {
     width: 1600px;
-    margin: 0;
+    margin: auto;
     background-color: var(--btn-color);
     color: var(--secondary-title-color);
     font-family: 'Roboto', sans-serif;
@@ -27,6 +27,7 @@ main {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--active-color);
+    margin-bottom: 20px;
 }
 
 .logo-color-white {
@@ -57,7 +58,7 @@ header .container {
 }
 ul {
     list-style: none;
-    margin: auto;
+    margin: 0;
     padding: 0;
 }
 span {
@@ -290,6 +291,21 @@ p {
 /*-----------ПОДВАЛ----------- */
 footer .container {
     background-color: #2f303a;
+}
+.footer-left-box {
+    padding-top: 60px;
+    padding-left: 215px;
+    padding-bottom: 60px;
+    letter-spacing: 0.03em;
+    padding-right: 1154px;
+}
+.footer-text {
+    width: 231px;
+}
+.footer-list {
+    font-size: 14px;
+    line-height: 1.95;
+    letter-spacing: 0.03em;
 }
 .color-contacts {
     font-family: inherit;
