@@ -38,7 +38,6 @@ header {
 
 .section {
     padding: 94px 0;
-    outline: 1px solid tomato;
 }
 .gallery-icon {
     width: 1200px;
@@ -59,7 +58,7 @@ header .container {
 ul {
     list-style: none;
     margin: auto;
-    padding: 0 auto;
+    padding: 0;
 }
 span {
     color: #000000;
@@ -118,6 +117,11 @@ p {
 .contacts .link:focus {
     color: var(--active-color);
 }
+/* ---------ОСОБЕННОСТИ---------- */
+.peculiarities {
+    display: flex;
+}
+
 /* ---------НАША КОМАНДА--------- */
 .section-item {
     background-color: #f5f4fa;
@@ -306,9 +310,12 @@ footer .container {
     font-family: inherit;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 16px;
     color: var(--primary-title-color);
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
+    width: 270px;
 }
 .section-box-title {
     font-family: inherit;
@@ -318,6 +325,16 @@ footer .container {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-title-color);
+}
+.peculiarities-list {
+    margin-right: 30px;
+}
+.peculiarities-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-title-color);
+    width: 270px;
 }
 .card-name {
     font-family: inherit;
