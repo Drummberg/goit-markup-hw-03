@@ -150,11 +150,13 @@ p {
 
 .hero {
     background-color: #2f303a;
+    max-width: 1600px;
+    height: 600px;
     left: 0px;
     top: 80px;
 }
 
-.hero .hero-title {
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -162,13 +164,15 @@ p {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--btn-color);
+    padding-top: 200px;
+    padding-left: 452px;
+    padding-right: 452px;
 }
 
 .hero-btnn {
     font-family: inherit;
     font-weight: 500;
     background-color: var(--active-color);
-    color: var(--btn-color);
     width: 200px;
     height: 50px;
     left: 700px;
@@ -178,10 +182,15 @@ p {
     border: none;
     padding: 10px 32px;
     text-align: center;
+    margin-left: 700px;
+    margin-top: 30px;
 }
 .hero-btnn:hover,
 .hero-btnn:focus {
-    color: #188ce8;
+    background-color: #188ce8;
+}
+.btnn-text {
+    color: var(--btn-color);
 }
 .hero-btn {
     font-family: inherit;
