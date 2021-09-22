@@ -27,7 +27,6 @@ main {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--active-color);
-    margin-bottom: 20px;
 }
 
 .logo-color-white {
@@ -64,7 +63,9 @@ ul {
 span {
     color: #000000;
 }
-
+img {
+    display: block;
+}
 a {
     text-decoration: none;
 }
@@ -90,6 +91,7 @@ p {
     display: flex;
 }
 .link {
+    display: inline-block;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -97,13 +99,11 @@ p {
     color: var(--primary-title-color);
     padding: 32px 0;
 }
-
+.contacts-link {
+}
 .site-nav,
 .link {
     margin-right: 50px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    padding-left: 0;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -269,14 +269,24 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin-right: -20px;
+    padding-bottom: 94px;
 }
 .icon {
-    flex-basis: calc (100% / 3);
+    flex-basis: calc (100% / 3 - 30);
     margin-top: 34px;
     margin-right: 30px;
     left: 215px;
     top: 262px;
-    border: 1px solid #eeeeee;
+    border: 1px solid #be1616;
+}
+.icon-info {
+    width: 322px;
+    height: 70px;
+    left: 261px;
+    top: 576px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 .icon-name {
     font-family: inherit;
