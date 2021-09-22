@@ -265,6 +265,10 @@ p {
     border: none;
 }
 /* ---------------ГАЛЕРЕЯ---------- */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
 .icon {
     width: 370px;
     height: 404px;
