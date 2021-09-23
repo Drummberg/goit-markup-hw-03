@@ -339,10 +339,10 @@ footer .container {
 }
 .footer-left-box {
     padding-top: 60px;
+    padding-bottom: 60px;
     padding-left: 215px;
     letter-spacing: 0.03em;
     padding-right: 1154px;
-    padding-bottom: 60px;
 }
 .footer-text {
     width: 231px;
@@ -452,9 +452,6 @@ footer .container {
 /* Footer */
 .logo {
     margin-bottom: 20px;
-}
-.footer-list {
-    margin-bottom: 9px;
 }
 .container-footer {
     background-color: #2f303a;
