@@ -52,13 +52,14 @@ header {
 }
 
 header .container {
+    margin-left: auto;
     display: flex;
     justify-content: space-between;
 }
 ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-left: 0;
 }
 span {
     color: #000000;
@@ -91,18 +92,46 @@ p {
     display: flex;
 }
 .link {
-    display: inline-block;
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: var(--primary-title-color);
     padding: 32px 0;
+    color: var(--primary-title-color);
 }
-.contacts-link {
+.links {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    padding: 32px 0;
+    color: var(--secondary-title-color);
 }
-.site-nav,
-.link {
+
+.links:hover,
+.links:focus {
+    color: var(--active-color);
+}
+
+.filters {
+    justify-content: center;
+}
+.contacts-link:not(:last-child) {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    color: var(--secondary-title-color);
+}
+.site-nav {
+    margin-right: 50px;
+}
+
+.header-contacts {
+    display: flex;
+}
+.header-item:not(:last-child) {
     margin-right: 50px;
 }
 .site-nav .link:hover,
@@ -110,8 +139,7 @@ p {
     color: var(--active-color);
 }
 
-.contacts .link {
-    margin-top: 32px;
+.link:not(:last-child) {
     color: var(--secondary-title-color);
 }
 .contacts .link:hover,
@@ -277,7 +305,8 @@ p {
     margin-right: 30px;
     left: 215px;
     top: 262px;
-    border: 1px solid #be1616;
+    border: 1px solid #eeeeee;
+    border-top: none;
 }
 .icon-info {
     width: 322px;
@@ -311,9 +340,9 @@ footer .container {
 .footer-left-box {
     padding-top: 60px;
     padding-left: 215px;
-    padding-bottom: 60px;
     letter-spacing: 0.03em;
     padding-right: 1154px;
+    padding-bottom: 60px;
 }
 .footer-text {
     width: 231px;
@@ -421,6 +450,12 @@ footer .container {
     padding-top: 30px;
 }
 /* Footer */
+.logo {
+    margin-bottom: 20px;
+}
+.footer-list {
+    margin-bottom: 9px;
+}
 .container-footer {
     background-color: #2f303a;
     left: 0px;
