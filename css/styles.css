@@ -20,6 +20,8 @@ main {
     font-family: 'Raleway', sans-serif;
     display: flex;
     align-items: center;
+    margin-top: 24px;
+    margin-bottom: 25px;
     margin-right: 93px;
     font-style: normal;
     font-weight: 700;
@@ -116,8 +118,11 @@ p {
 }
 
 .filters {
+    width: 611px;
     padding-top: 94px;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 .contacts-link:not(:last-child) {
     display: flex;
@@ -203,10 +208,6 @@ p {
     font-family: inherit;
     font-weight: 500;
     background-color: var(--active-color);
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -227,27 +228,26 @@ p {
     font-weight: 500;
     background-color: var(--active-color);
     color: var(--btn-color);
-    width: 73px;
-    height: 38px;
-    left: 495px;
-    top: 174px;
+    font-size: 16px;
+    line-height: 1.62;
     border-radius: 4px;
+    letter-spacing: 0.03em;
     cursor: pointer;
     border: none;
+    padding: 6px 22px;
 }
 
 .btn-web {
-    font-family: inherit;
     font-weight: 500;
     background-color: var(--background-btn-color);
     color: var(--primary-title-color);
-    width: 128px;
-    height: 38px;
-    left: 584px;
-    top: 174px;
     border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
     cursor: pointer;
     border: none;
+    padding: 6px 22px;
 }
 
 .btn-apps {
@@ -255,10 +255,6 @@ p {
     font-weight: 500;
     background-color: var(--background-btn-color);
     color: var(--primary-title-color);
-    width: 145px;
-    height: 38px;
-    left: 712px;
-    top: 174px;
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -270,10 +266,6 @@ p {
     font-weight: 500;
     background-color: var(--background-btn-color);
     color: var(--primary-title-color);
-    width: 103px;
-    height: 38px;
-    left: 865px;
-    top: 174px;
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -285,10 +277,6 @@ p {
     font-weight: 500;
     background-color: var(--background-btn-color);
     color: var(--primary-title-color);
-    width: 130px;
-    height: 38px;
-    left: 976px;
-    top: 174px;
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -452,11 +440,8 @@ footer .container {
 .card-info {
     padding-top: 30px;
 }
-/* Footer */
-.logo {
-    margin-top: 24px;
-    margin-bottom: 25px;
-}
+/*------------ ФУТЕР-------- */
+
 .container-footer {
     background-color: #2f303a;
     left: 0px;
