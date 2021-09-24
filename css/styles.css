@@ -221,6 +221,9 @@ p {
     background-color: #188ce8;
 }
 .btnn-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
     color: var(--btn-color);
 }
 .hero-btn {
