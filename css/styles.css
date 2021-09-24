@@ -250,37 +250,6 @@ p {
     padding: 6px 22px;
 }
 
-.btn-apps {
-    font-family: inherit;
-    font-weight: 500;
-    background-color: var(--background-btn-color);
-    color: var(--primary-title-color);
-    border-radius: 4px;
-    cursor: pointer;
-    border: none;
-}
-
-.btn-design {
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 500;
-    background-color: var(--background-btn-color);
-    color: var(--primary-title-color);
-    border-radius: 4px;
-    cursor: pointer;
-    border: none;
-}
-
-.btn-marketing {
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 500;
-    background-color: var(--background-btn-color);
-    color: var(--primary-title-color);
-    border-radius: 4px;
-    cursor: pointer;
-    border: none;
-}
 /* ---------------ГАЛЕРЕЯ---------- */
 .gallery {
     display: flex;
@@ -288,7 +257,7 @@ p {
     padding-bottom: 94px;
 }
 .icon {
-    flex-basis: calc (100% / 3 - 30);
+    flex-basis: calc (100% / 3 - 30px);
     margin-top: 34px;
     margin-right: 30px;
     left: 215px;
