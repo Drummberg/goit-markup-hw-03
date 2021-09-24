@@ -303,7 +303,6 @@ footer .container {
 .footer-left-box {
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 215px;
     letter-spacing: 0.03em;
     padding-right: 1154px;
 }
@@ -412,9 +411,10 @@ footer .container {
     padding-top: 30px;
 }
 /*------------ ФУТЕР-------- */
-
-.container-footer {
+.footer {
     background-color: #2f303a;
+}
+.container-footer {
     left: 0px;
     top: 2097px;
 }
