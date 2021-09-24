@@ -185,8 +185,6 @@ p {
 
 .hero {
     background-color: #2f303a;
-    max-width: 1600px;
-    height: 600px;
     left: 0px;
     top: 80px;
 }
@@ -215,6 +213,7 @@ p {
     text-align: center;
     margin-left: 700px;
     margin-top: 30px;
+    margin-bottom: 200px;
 }
 .hero-btnn:hover,
 .hero-btnn:focus {
