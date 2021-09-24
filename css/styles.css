@@ -7,7 +7,7 @@
 }
 body,
 main {
-    width: 1600px;
+    max-width: 1600px;
     margin: auto;
     background-color: var(--btn-color);
     color: var(--secondary-title-color);
@@ -342,7 +342,7 @@ footer .container {
 .section-title {
     font-family: inherit;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 16px;
     color: var(--primary-title-color);
     letter-spacing: 0.03em;
@@ -359,7 +359,6 @@ footer .container {
     letter-spacing: 0.03em;
     color: var(--primary-title-color);
     margin-bottom: 50px;
-    padding-top: 94px;
 }
 .peculiarities-list {
     margin-right: 30px;
