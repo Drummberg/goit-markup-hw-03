@@ -5,6 +5,7 @@
     --background-btn-color: #f5f4fa;
     --btn-color: #ffffff;
 }
+
 body,
 main {
     margin: auto;
@@ -15,6 +16,7 @@ main {
     font-size: 14px;
     display: block;
 }
+
 .logo {
     font-family: 'Raleway', sans-serif;
     display: flex;
@@ -33,6 +35,7 @@ main {
 .logo-color-white {
     color: var(--btn-color);
 }
+
 header {
     border-bottom: 1px solid #ececec;
 }
@@ -40,12 +43,14 @@ header {
 .section {
     padding: 94px 0;
 }
+
 .gallery-icon {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: border-box;
 }
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -57,17 +62,21 @@ header .container {
     display: flex;
     justify-content: space-between;
 }
+
 ul {
     list-style: none;
     margin: 0;
     padding-left: 0;
 }
+
 span {
     color: #000000;
 }
+
 img {
     display: block;
 }
+
 a {
     text-decoration: none;
 }
@@ -86,12 +95,14 @@ p {
     margin: 0;
     padding: 0;
 }
+
 .nav,
 .contacts,
 .site-nav,
 .filters {
     display: flex;
 }
+
 .link {
     display: flex;
     font-weight: 500;
@@ -101,6 +112,7 @@ p {
     padding: 32px 0;
     color: var(--primary-title-color);
 }
+
 .links {
     display: flex;
     font-weight: 500;
@@ -151,37 +163,8 @@ p {
 .contacts .link:focus {
     color: var(--active-color);
 }
-/* ---------ОСОБЕННОСТИ---------- */
-.peculiarities {
-    display: flex;
-}
 
-/* ---------НАША КОМАНДА--------- */
-.section-item {
-    background-color: #f5f4fa;
-}
-/* ---------КНОПКИ------------ */
-.btn-web:hover,
-.btn-web:focus {
-    background-color: #2196f3;
-    color: var(--btn-color);
-}
-.btn-apps:hover,
-.btn-apps:focus {
-    background-color: #2196f3;
-    color: var(--btn-color);
-}
-.btn-design:hover,
-.btn-design:focus {
-    background-color: #2196f3;
-    color: var(--btn-color);
-}
-.btn-marketing:hover,
-.btn-marketing:focus {
-    background-color: #2196f3;
-    color: var(--btn-color);
-}
-
+/* ------------ШАПКА------------ */
 .hero {
     background-color: #2f303a;
     left: 0px;
@@ -249,6 +232,99 @@ p {
     cursor: pointer;
     border: none;
     padding: 6px 22px;
+}
+
+/* ---------ОСОБЕННОСТИ---------- */
+.peculiarities {
+    display: flex;
+}
+
+.peculiarities-list {
+    margin-right: 30px;
+}
+
+.section-title {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--primary-title-color);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    width: 270px;
+}
+
+.peculiarities-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-title-color);
+    width: 270px;
+}
+
+/* ---------ЧЕМ МЫ ЗАНИМАЕМСЯ------- */
+
+.section-box-title {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+    margin-bottom: 50px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+}
+/* ---------НАША КОМАНДА--------- */
+.section-item {
+    background-color: #f5f4fa;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+}
+.item-list {
+    width: 270px;
+    height: 368px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.card-name {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+    padding-bottom: 10px;
+}
+.card-text {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-title-color);
+}
+.card-info {
+    padding-top: 30px;
+}
+/* ---------КНОПКИ------------ */
+.btn-web:hover,
+.btn-web:focus {
+    background-color: #2196f3;
+    color: var(--btn-color);
 }
 
 /* ---------------ГАЛЕРЕЯ---------- */
@@ -339,79 +415,7 @@ footer .container {
 .color-contacts:focus {
     color: var(--active-color);
 }
-.section-title {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    color: var(--primary-title-color);
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    width: 270px;
-}
-.section-box-title {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-title-color);
-    margin-bottom: 50px;
-}
-.peculiarities-list {
-    margin-right: 30px;
-}
-.peculiarities-text {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--secondary-title-color);
-    width: 270px;
-}
-/* ---------ЧЕМ МЫ ЗАНИМАЕМСЯ------- */
-.pictures {
-    display: flex;
-    justify-content: space-between;
-}
-/* ---------НАША КОМАНДА------------ */
-.item {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 94px;
-}
-.item-list {
-    width: 270px;
-    height: 368px;
-    background-color: #ffffff;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
-.card-name {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-title-color);
-    padding-bottom: 10px;
-}
-.card-text {
-    font-family: inherit;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--secondary-title-color);
-}
-.card-info {
-    padding-top: 30px;
-}
-/*------------ ФУТЕР-------- */
+
 .footer {
     background-color: #2f303a;
 }
