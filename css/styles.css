@@ -186,19 +186,22 @@ p {
     background-color: #2f303a;
     left: 0px;
     top: 80px;
+    padding: 200px 0;
+    text-align: center;
 }
 
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--btn-color);
-    padding-top: 200px;
-    padding-left: 452px;
-    padding-right: 452px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 696px;
+    display: block;
 }
 
 .hero-btnn {
@@ -208,11 +211,8 @@ p {
     border-radius: 4px;
     cursor: pointer;
     border: none;
-    padding: 10px 32px;
+    padding: 10px;
     text-align: center;
-    margin-left: 700px;
-    margin-top: 30px;
-    margin-bottom: 200px;
 }
 .hero-btnn:hover,
 .hero-btnn:focus {
