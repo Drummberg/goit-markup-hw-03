@@ -102,7 +102,7 @@ p {
 .filters {
     display: flex;
 }
-
+/* ---------ВЕРХНЯЯ ЛИНИЯ---------- */
 .link {
     display: flex;
     font-weight: 500;
@@ -233,7 +233,12 @@ p {
     border: none;
     padding: 6px 22px;
 }
-
+/* ---------КНОПКИ------------ */
+.btn-web:hover,
+.btn-web:focus {
+    background-color: #2196f3;
+    color: var(--btn-color);
+}
 /* ---------ОСОБЕННОСТИ---------- */
 .peculiarities {
     display: flex;
@@ -319,12 +324,6 @@ p {
 }
 .card-info {
     padding-top: 30px;
-}
-/* ---------КНОПКИ------------ */
-.btn-web:hover,
-.btn-web:focus {
-    background-color: #2196f3;
-    color: var(--btn-color);
 }
 
 /* ---------------ГАЛЕРЕЯ---------- */
