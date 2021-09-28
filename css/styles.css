@@ -8,6 +8,7 @@
 
 body,
 main {
+    min-width: 1600px;
     margin: auto;
     background-color: var(--btn-color);
     color: var(--secondary-title-color);
